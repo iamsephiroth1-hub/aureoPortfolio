@@ -1,0 +1,10 @@
+:root {
+  --color-background: #0a0a0a;
+  --color-surface: #141414;
+  --color-text: #f0ede8;
+  --color-accent: #00ff94;
+  --color-muted: #666666;
+  --color-border: #2a2a2a;
+  --font-display: "Space Grotesk", "Segoe UI", system-ui, sans-serif;
+  --font-body: "DM Mono", "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+}
