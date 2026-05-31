@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 import Link from "next/link";
 import { ChevronDown } from "lucide-react";
 import Badge from "@/components/ui/Badge";
@@ -207,9 +208,11 @@ export default function Experience() {
                       >
                         <div className="bg-surface/40 border-t border-white/5 px-4 py-4 space-y-4">
                           {cert.credentialUrl && !cert.credentialUrl.includes("TODO") ? (
-                            <img
+                            <Image
                               src={cert.credentialUrl}
                               alt={cert.name}
+                              width={800}
+                              height={600}
                               className="w-full rounded-lg border border-white/10 object-cover"
                               style={{ maxHeight: "380px" }}
                             />
