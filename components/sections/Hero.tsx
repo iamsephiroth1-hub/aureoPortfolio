@@ -68,17 +68,6 @@ export default function Hero() {
             >
               View Work
             </Button>
-            <Button
-              variant="secondary"
-              onClick={() => {
-                const link = document.createElement("a");
-                link.href = "/cv.pdf";
-                link.download = true;
-                link.click();
-              }}
-            >
-              Download CV
-            </Button>
           </motion.div>
         </motion.div>
       </Container>
