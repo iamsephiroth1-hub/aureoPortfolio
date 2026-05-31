@@ -28,14 +28,8 @@ export default function Hero() {
               className="heading-display"
               variants={fadeInVariants}
             >
-              Hey, I&apos;m <GradientText>CJ</GradientText>
+              Hello, I&apos;m <GradientText>Christopher Joseph Aureo</GradientText>
             </motion.h1>
-            <motion.p
-              className="text-lg md:text-xl font-mono text-muted tracking-widest uppercase mt-1"
-              variants={fadeInVariants}
-            >
-              Christopher Joseph Aureo
-            </motion.p>
           </div>
 
           <motion.p

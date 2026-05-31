@@ -2,7 +2,7 @@ import type { SiteConfig } from "@/src/types/content";
 
 export const siteConfig: SiteConfig = {
   name: "CJ Aureo",
-  initials: "CJ",
+  initials: "CJ DEV",
   role: "Aspiring Software Developer",
   title: "CJ Aureo — Aspiring Software Developer",
   description:
