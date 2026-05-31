@@ -208,14 +208,14 @@ export default function Experience() {
                       >
                         <div className="bg-surface/40 border-t border-white/5 px-4 py-4 space-y-4">
                           {cert.credentialUrl && !cert.credentialUrl.includes("TODO") ? (
-                            <Image
-                              src={cert.credentialUrl}
-                              alt={cert.name}
-                              width={800}
-                              height={600}
-                              className="w-full rounded-lg border border-white/10 object-cover"
-                              style={{ maxHeight: "380px" }}
-                            />
+                            <div className="relative w-full" style={{ height: "380px" }}>
+                              <Image
+                                src={cert.credentialUrl}
+                                alt={cert.name}
+                                fill
+                                className="rounded-lg border border-white/10 object-contain"
+                              />
+                            </div>
                           ) : (
                             <div className="w-full h-96 rounded-lg border border-white/10 bg-surface/30 flex items-center justify-center">
                               <p className="text-sm text-text-muted">
