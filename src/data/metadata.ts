@@ -11,13 +11,13 @@ export const siteConfig: SiteConfig = {
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://cjaureo.dev",
   ogImage: "/opengraph-image",
   author: "CJ Aureo",
-  email: "chrstphraureo18@gmail.com",
-  schoolEmail: "aureocv@students.nu-fairview.edu.ph",
+  email: "aureojoseph518@gmail.com",
+  schoolEmail: "aureojoseph518@gmail.com",
   socials: [
     {
       platform: "email",
       label: "Email",
-      url: "mailto:chrstphraureo18@gmail.com",
+      url: "mailto:aureojoseph518@gmail.com",
     },
     {
       platform: "github",
