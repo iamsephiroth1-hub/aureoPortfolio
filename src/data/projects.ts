@@ -64,7 +64,7 @@ const projects: Project[] = [
     tags: ['ESP32', 'Arduino', 'IoT Sensors', 'React', 'Node.js', 'WebSockets', 'Embedded C++'],
     projectType: 'Software Development Project',
     featured: true,
-    images: ["/projects/aqualogic/preview.jpg", "/projects/aqualogic/preview1.jpg"]
+    images: ["/projects/aqualogic/preview.jpg", "/projects/aqualogic/preview1.jpg", "/projects/aqualogic/preview2.jpg"]
   },
   {
     id: 'cylens',
